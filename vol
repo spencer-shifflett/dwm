@@ -1,0 +1,3 @@
+#!/bin/bash
+vol=$(zenity --entry --text="Enter Volume:")
+pactl -- set-sink-volume 0 $vol%
