@@ -6,3 +6,4 @@ libxinerama-dev
 xorg
 git
 xdm
+kitty
