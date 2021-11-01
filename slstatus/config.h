@@ -66,6 +66,7 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
 	{ ipv4,     "[ens33 : %s] ", "ens33"},
+	{ run_command, "[VOL : %s] ", "pactl list sinks | grep 'Volume: front-left' | awk '{print $5}'"},
         { cpu_perc, "[CPU : %s%] ", NULL  },
         { ram_perc, "[RAM : %s%] ", NULL  },
 	{ datetime, "%s",           "%b %d, %Y %I:%M%p" },
