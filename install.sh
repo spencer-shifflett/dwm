@@ -7,4 +7,5 @@ cd ../slstatus
 sudo make clean install
 cd ../
 cp xinitrc ~/.xinitrc
+sudo systemctl disable gdm
 startx
