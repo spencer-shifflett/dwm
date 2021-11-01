@@ -1,4 +1,4 @@
-xargs sudo apt install <requirements.txt
+xargs sudo apt install -y <requirements.txt
 cd dmenu-5.0
 sudo make clean install
 cd ../dwm-6.2
