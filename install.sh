@@ -14,4 +14,5 @@ cd ../
 cp xinitrc ~/.xinitrc
 sudo cp ./vol /bin/
 sudo systemctl disable gdm
+sudo timedatectl set-timezone America/New_York
 startx
