@@ -1,3 +1,4 @@
+#!/bin/bash
 <<<<<<< HEAD
 =======
 sudo apt update

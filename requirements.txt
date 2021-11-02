@@ -9,3 +9,4 @@ xdm
 kitty
 pulseaudio
 pavucontrol
+slock
