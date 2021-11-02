@@ -68,6 +68,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_minus,  spawn,          SHCMD("pactl -- set-sink-volume 0 -5%") },
 	{ MODKEY,			XK_0,	   spawn,	   SHCMD("pactl -- set-sink-volume 0 0") },
 	{ MODKEY,			XK_v,	   spawn,	   SHCMD("vol") },
+	{ MODKEY|ShiftMask,		XK_l,	   spawn,	   SHCMD("slock") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = +1 } },
