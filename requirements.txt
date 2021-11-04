@@ -10,3 +10,4 @@ kitty
 pulseaudio
 pavucontrol
 slock
+udiskie
