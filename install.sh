@@ -1,9 +1,6 @@
 #!/bin/bash
-<<<<<<< HEAD
-=======
 sudo apt update
 sudo apt full-upgrade -y
->>>>>>> e3d372f5db3ea5e57caf880a2497cade3248bede
 xargs sudo apt install -y <requirements.txt
 cd dmenu-5.0
 sudo make clean install
