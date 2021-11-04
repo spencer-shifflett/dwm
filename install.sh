@@ -17,6 +17,7 @@ sudo make clean install &&
 cd ../
 cp xinitrc ~/.xinitrc
 sudo cp ./vol /bin/
-sudo systemctl disable gdm
+sudo apt purge gdm -y
+sudo apt purge kdm -y
 sudo timedatectl set-timezone America/New_York
 startx
