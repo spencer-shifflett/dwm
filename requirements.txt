@@ -11,3 +11,4 @@ pulseaudio
 pavucontrol
 slock
 udiskie
+zenity
